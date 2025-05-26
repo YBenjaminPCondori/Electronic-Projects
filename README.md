@@ -48,18 +48,6 @@ Welcome to my collection of hands-on **electronic systems and embedded software*
 
 ---
 
-## 📁 Folder Structure
-
-/C++/
-  └── ultrasonic_distance_calc.cpp
-/Python/
-  └── sensor_logger.py
-/Embedded/
-  └── PIC16F_gpio.X/
-  └── ESP32_temp_reader/
-
----
-
 ## 📚 Learning Outcomes
 
 - Embedded C and C++ development for real-time applications
