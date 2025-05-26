@@ -13,7 +13,7 @@ Welcome to my collection of hands-on **electronic systems and embedded software*
 
 ## 📂 Repository Overview
 
-- 💻 **Languages:** C++, Python, Embedded C
+- 💻 **Languages:** C++, Python, Embedded C, Assembly, VHDL, Verilog
 - 🛠️ **Tools:** MPLAB X, Arduino IDE, Python 3.x
 - 🔌 **Hardware:** PIC16F microcontrollers, ESP32, DHT11, HC-SR04, MQ sensors
 
