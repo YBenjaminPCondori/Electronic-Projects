@@ -1,4 +1,3 @@
-
 # 🔧 Electronic Projects Repository
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/Electronic-Projects)
@@ -15,7 +14,7 @@ Welcome to my collection of hands-on **electronic systems and embedded software*
 
 - 💻 **Languages:** C++, Python, Embedded C, Assembly, VHDL, Verilog
 - 🛠️ **Tools:** MPLAB X, Arduino IDE, Python 3.x
-- 🔌 **Hardware:** PIC16F microcontrollers, ESP32, DHT11, HC-SR04, MQ sensors
+- 🔌 **Hardware:** PIC16F microcontrollers, ESP32, DHT11, HC-SR04, MQ sensors, NEXYS FPGA, Arduino, Raspberry Pi
 
 ---
 
@@ -30,12 +29,12 @@ Welcome to my collection of hands-on **electronic systems and embedded software*
 
 ---
 
-### 📊 Environmental Sensor Logger (Python)
-> Python-based data logger for temperature, humidity, and gas sensors.
+### 📊 Binary Occupancy Monitoring System (Python)
+> Simulates ultrasonic distance measurements using C++ console app.
 
-- Reads from DHT11 and MQ-135
-- Uses `pandas` for CSV logging and `matplotlib` for plotting
-- Designed for edge-device data collection and visualization
+- Input/output logic + simple timing formulas
+- Simulates object distance using delay-to-distance conversion
+- Highlights structured programming in embedded systems
 
 ---
 
