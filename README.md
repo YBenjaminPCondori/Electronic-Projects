@@ -6,7 +6,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/yourusername/Electronic-Projects)
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 
-Welcome to my collection of hands-on **electronic systems and embedded software** projects. Developed as part of my degree in **Computer Systems Engineering**, this repo showcases C++, Python, and microcontroller-based builds focused on real-world applications.
+Welcome to my collection of hands-on **electronic systems and embedded software** projects. Developed as part of my degree in **Computer Systems Engineering**, this repo showcases C++, Python, and microcontroller-based builds focused on real-world applications, as well as several projects that was completed in my academic journey at University.
 
 ---
 
