@@ -50,7 +50,6 @@ Welcome to my collection of hands-on **electronic systems and embedded software*
 
 ## 📁 Folder Structure
 
-```bash
 /C++/
   └── ultrasonic_distance_calc.cpp
 /Python/
