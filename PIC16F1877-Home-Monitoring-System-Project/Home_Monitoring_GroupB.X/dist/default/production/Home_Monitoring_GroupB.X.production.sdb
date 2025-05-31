@@ -1,0 +1,85 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18877 ]
+[d frameptr 6 ]
+"68 H:\GroupProject\Home_Monitoring_GroupB.X\16x2_lcd_display.c
+[v _delay delay `(v  1 e 1 0 ]
+"78
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+"89
+[v _lcd_char lcd_char `(v  1 e 1 0 ]
+"100
+[v _display_message display_message `(v  1 e 1 0 ]
+"110
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"127
+[v _display_cursor display_cursor `(v  1 e 1 0 ]
+"155
+[v _main main `(v  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"801 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18877.h
+[v _TRISC TRISC `VEuc  1 e 1 @19 ]
+"1081
+[v _LATC LATC `VEuc  1 e 1 @24 ]
+"155 H:\GroupProject\Home_Monitoring_GroupB.X\16x2_lcd_display.c
+[v _main main `(v  1 e 1 0 ]
+{
+"163
+[v main@FirstRow_txt FirstRow_txt `DC[16]uc  1 s 16 FirstRow_txt ]
+"165
+[v main@SecondRow_txt SecondRow_txt `DC[16]uc  1 s 16 SecondRow_txt ]
+"177
+} 0
+"110
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"125
+} 0
+"78
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+{
+[v lcd_cmd@cmd cmd `uc  1 a 1 wreg ]
+[v lcd_cmd@cmd cmd `uc  1 a 1 wreg ]
+"80
+[v lcd_cmd@cmd cmd `uc  1 a 1 5 ]
+"87
+} 0
+"100
+[v _display_message display_message `(v  1 e 1 0 ]
+{
+"102
+[v display_message@i i `ui  1 a 2 9 ]
+"100
+[v display_message@mess mess `*.25DCuc  1 p 2 6 ]
+"108
+} 0
+"89
+[v _lcd_char lcd_char `(v  1 e 1 0 ]
+{
+[v lcd_char@c c `uc  1 a 1 wreg ]
+[v lcd_char@c c `uc  1 a 1 wreg ]
+"91
+[v lcd_char@c c `uc  1 a 1 5 ]
+"98
+} 0
+"68
+[v _delay delay `(v  1 e 1 0 ]
+{
+"70
+[v delay@i i `ui  1 a 2 2 ]
+"68
+[v delay@x x `i  1 p 2 0 ]
+"76
+} 0
