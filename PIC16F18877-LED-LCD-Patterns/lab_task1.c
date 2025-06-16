@@ -1,6 +1,6 @@
 /*
  * File:   lab_task1.c
- * Author: 2231349
+ * Author: <Student ID ommited for privacy reasons>
  *
  * Created on 31 January 2024, 19:59
  */
