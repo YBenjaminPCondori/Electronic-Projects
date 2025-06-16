@@ -1,8 +1,10 @@
-# Sequence Detector on FPGA – VHDL Project (EE3635)
+# Sequence Detector on FPGA – VHDL Project 
 
 ## 🎯 Project Overview
 
-This project was developed as part of the **Embedded Systems** module (EE3635) at Brunel University London. The task involved designing, simulating, and implementing a **sequence detector finite state machine (FSM)** using **VHDL** on the **NEXYS FPGA development board** via **Xilinx Vivado**.
+This project was developed as part of the **Embedded Systems** module (EE3635) at Brunel University London. 
+
+The task involved designing, simulating, and implementing a **sequence detector finite state machine (FSM)** using **VHDL** on the **NEXYS FPGA development board** via **Xilinx Vivado**.
 
 The system was designed from scratch using RTL techniques and demonstrates both **sequential logic design** and **real-world considerations** like **debouncing** and **power consumption analysis**.
 
