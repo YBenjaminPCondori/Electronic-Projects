@@ -1,6 +1,7 @@
 # 🔧 Electronic Projects Repository
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/YBenjaminPCondori/Electronic-Projects)
+
 ![Languages](https://img.shields.io/github/languages/count/YBenjaminPCondori/Electronic-Projects)
 ![Top language](https://img.shields.io/github/languages/top/yBenjaminPCondori/Electronic-Projects)
 ![Last Commit](https://img.shields.io/github/last-commit/YBenjaminPCondori/Electronic-Projects)
