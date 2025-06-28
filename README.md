@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/YBenjaminPCondori/Electronic-Projects)
 ![Languages](https://img.shields.io/github/languages/count/YBenjaminPCondori/Electronic-Projects)
 ![Top language](https://img.shields.io/github/languages/top/yBenjaminPCondori/Electronic-Projects)
-![Last Commit](https://img.shields.io/github/last-commit/BenjaminPCondori/Electronic-Projects)
+![Last Commit](https://img.shields.io/github/last-commit/YBenjaminPCondori/Electronic-Projects)
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 
 Welcome to my collection of hands-on **electronic systems and embedded software** projects. Developed as part of my degree in **Computer Systems Engineering**, this repo showcases C++, Python, and microcontroller-based builds focused on real-world applications, as well as several projects that was completed in my academic journey at University.
