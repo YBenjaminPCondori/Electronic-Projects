@@ -1,6 +1,6 @@
 import socket
 
-clientsocket = socket.AF_INET, socket.SOCK_STREAM);
+clientSocket = socket.AF_INET, socket.SOCK_STREAM;
 
 clientSocket.connect(("127.0.0.1"));
 
