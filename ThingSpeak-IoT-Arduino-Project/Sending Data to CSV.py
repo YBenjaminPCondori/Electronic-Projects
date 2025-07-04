@@ -6,8 +6,6 @@ ser.flushInput()
 
 while True:
     try:
-
-
         ser_bytes = ser.readline() # read one line from serial port
 # and grab the data
 
