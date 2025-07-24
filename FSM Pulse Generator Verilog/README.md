@@ -1,5 +1,5 @@
 
-# Verilog HDL Design Tasks — Digital Systems Design (EE2660) (UNDER CONSTRUCTION)
+# Verilog HDL Design Tasks — Digital Systems Design 
 
 This project was completed as part of the EE2660 Digital Systems Design module at Brunel University London. It demonstrates the use of Verilog HDL to design, implement, and verify synchronous sequential systems using multiple levels of abstraction.
 
