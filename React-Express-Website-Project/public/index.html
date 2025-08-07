@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>React Node Example</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@7/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      const { useState, useEffect } = React;
+      function App() {
+        const [items, setItems] = useState([]);
+        const [input, setInput] = useState("");
+        useEffect(() => {
+          fetch('/api/items').then(res => res.json()).then(setItems);
+        }, []);
+        const addItem = () => {
+          fetch('/api/items', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ item: input })
+          })
+          .then(res => res.json())
+          .then(data => {
+            setItems(data);
+            setInput('');
+          });
+        };
+        return (
+          <div>
+            <h1>Items</h1>
+            <ul>{items.map((it, idx) => <li key={idx}>{it}</li>)}</ul>
+            <input value={input} onChange={e => setInput(e.target.value)} />
+            <button onClick={addItem}>Add</button>
+          </div>
+        );
+      }
+      ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+    </script>
+  </body>
+</html>
