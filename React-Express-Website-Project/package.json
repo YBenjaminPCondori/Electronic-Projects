@@ -1,0 +1,14 @@
+{
+  "name": "react-express-website-project",
+  "version": "1.0.0",
+  "description": "Simple React front-end with Node backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node server.js & pid=$!; sleep 1; curl -s http://localhost:3000/api/items; kill $pid"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs"
+}
